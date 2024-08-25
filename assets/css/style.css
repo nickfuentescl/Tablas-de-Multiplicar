@@ -1,0 +1,49 @@
+html,
+body {
+    height: 100%;
+    /* Asegura que el html y el body ocupen toda la pantalla */
+    margin: 0;
+    /* Elimina los márgenes por defecto */
+}
+
+body {
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    /* Asegura que la imagen cubra todo el fondo */
+    background-position: center;
+    /* Centra la imagen */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.botoncolor{
+    border: 4px solid #220242;
+    background-color: #af4eac;
+}
+
+.paddingCaja {
+    padding-top: 6rem;
+}
+
+.paddingTablas {
+    padding-top: 6rem;
+}
+
+.transparente {
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
